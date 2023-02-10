@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Slider with infinite loop with drag and scroll - horizontal</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!--
+
+Follow me on
+Instagram: https://www.instagram.com/supahfunk/
+Dribbble: https://dribbble.com/supahfunk
+Twitter: https://twitter.com/supahfunk
+Codepen: https://codepen.io/supah/
+
+Vertical Version: https://codepen.io/supah/pen/xxZMdNW
+
+-->
+
+<!-- <div class="menu">
+  <div class="menu--wrapper">
+    <div class="menu--item">
+      <figure><img src="https://images.unsplash.com/photo-1595265677860-9a3168007dc0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" alt="" /></figure>
+    </div>
+
+    <div class="menu--item">
+      <figure><img src="https://images.unsplash.com/photo-1594786118579-95ba90c801ec?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" alt="" /></figure>
+    </div>
+
+    <div class="menu--item">
+      <figure><img src="https://images.unsplash.com/photo-1509339022327-1e1e25360a41?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" alt="" /></figure>
+    </div>
+
+    <div class="menu--item">
+      <figure><img src="https://images.unsplash.com/photo-1525417071002-5ee4e6bb44f7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" alt="" /></figure>
+    </div>
+
+    <div class="menu--item">
+      <figure><img src="https://images.unsplash.com/photo-1594072702031-f0e2a602dd2c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" alt="" /></figure>
+    </div>
+
+    <div class="menu--item">
+      <figure><img src="https://images.unsplash.com/photo-1592989819277-a3aafa40c66a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" alt="" /></figure>
+    </div>
+  </div>
+</div> -->
+
+
+<a class="version" href="https://codepen.io/supah/pen/xxZMdNW" target="_parent">Vertical version</a>
+
+<div class="box-brand2">
+  <div class="menu swiper brand-slider2">
+    <div class="menu--wrapper swiper-wrapper">
+      <div class="gtm-category01 swiper-slide menu--item first">
+        <a href="results/others" class="brand-link">
+          <img class="gtm-category01 block" loading="lazy"
+            src="//img.test-kaitorisatei.info/bring/img/pc/front-page/style-new/brand-sec/item_01.png" alt="EYEWEAR"
+            width="365" height="240">
+          <p class="gtm-category01 brand2-name">
+            <span class="oswald">EYEWEAR</span>
+          </p>
+        </a>
+      </div>
+      <div class="gtm-category02 swiper-slide menu--item">
+        <a href="results/super" class="brand-link">
+          <img class="gtm-category02 block" loading="lazy"
+            src="//img.test-kaitorisatei.info/bring/img/pc/front-page/style-new/brand-sec/item_02.png" alt="SUPER"
+            width="365" height="240">
+          <p class="gtm-category02 brand2-name">
+            <span class="oswald">SUPER</span>
+          </p>
+        </a>
+      </div>
+      <div class="gtm-category03 swiper-slide menu--item">
+        <a href="results/riders-jacket" class="brand-link">
+          <img class="gtm-category03 block" loading="lazy"
+            src="//img.test-kaitorisatei.info/bring/img/pc/front-page/style-new/brand-sec/item_03.png"
+            alt="RIDERS JACKET" width="365" height="240">
+          <p class="gtm-category03 brand2-name">
+            <span class="oswald">RIDERS JACKET</span>
+          </p>
+        </a>
+      </div>
+      <div class="gtm-category04 swiper-slide menu--item">
+        <a href="results/down-jacket" class="brand-link">
+          <img class="gtm-category04 block" loading="lazy"
+            src="//img.test-kaitorisatei.info/bring/img/pc/front-page/style-new/brand-sec/item_04.png" alt="DOWN JACKET"
+            width="365" height="240">
+          <p class="gtm-category04 brand2-name">
+            <span class="oswald">DOWN JACKET</span>
+          </p>
+        </a>
+      </div>
+      <div class="gtm-category05 swiper-slide menu--item">
+        <a href="results/accessories" class="brand-link">
+          <img class="gtm-category05 block" loading="lazy"
+            src="//img.test-kaitorisatei.info/bring/img/pc/front-page/style-new/brand-sec/item_05-new.png"
+            alt="ACCESSORIES" width="365" height="240">
+          <p class="gtm-category05 brand2-name">
+            <span class="oswald">ACCESSORIES</span>
+          </p>
+        </a>
+      </div>
+      <div class="gtm-category06 swiper-slide menu--item">
+        <a href="results/shoes" class="brand-link">
+          <img class="gtm-category06 block" loading="lazy"
+            src="//img.test-kaitorisatei.info/bring/img/pc/front-page/style-new/brand-sec/item_06.png" alt="SHOES"
+            width="365" height="240">
+          <p class="gtm-category06 brand2-name">
+            <span class="oswald">SHOES</span>
+          </p>
+        </a>
+      </div>
+      <div class="gtm-category07 swiper-slide menu--item">
+        <a href="results/street" class="brand-link">
+          <img class="gtm-category07 block" loading="lazy"
+            src="//img.test-kaitorisatei.info/bring/img/pc/front-page/style-new/brand-sec/item_07.png" alt="STREET"
+            width="365" height="240">
+          <p class="gtm-category07 brand2-name">
+            <span class="oswald">STREET</span>
+          </p>
+        </a>
+      </div>
+      <div class="gtm-category08 swiper-slide menu--item">
+        <a href="results/domestic" class="brand-link">
+          <img class="gtm-category08 block" loading="lazy"
+            src="//img.test-kaitorisatei.info/bring/img/pc/front-page/style-new/brand-sec/item_08.png" alt="DOMESTIC"
+            width="365" height="240">
+          <p class="gtm-category08 brand2-name">
+            <span class="oswald">DOMESTIC</span>
+          </p>
+        </a>
+      </div>
+      <div class="gtm-category09 swiper-slide menu--item last">
+        <a href="results/import" class="brand-link">
+          <img class="gtm-category09 block" loading="lazy"
+            src="//img.test-kaitorisatei.info/bring/img/pc/front-page/style-new/brand-sec/item_09.png" alt="IMPORT"
+            width="365" height="240">
+          <p class="gtm-category09 brand2-name">
+            <span class="oswald">IMPORT</span>
+          </p>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/gsap.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
